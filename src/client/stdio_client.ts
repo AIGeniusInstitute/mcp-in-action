@@ -7,7 +7,7 @@ async function main() {
   // 创建stdio传输
   const transport = new StdioClientTransport({
     command: "npx",
-    args: ["ts-node", "src/server/server.ts"]
+    args: ["ts-node", "src/server/stdio_server.ts"]
   });
 
   // 创建客户端
